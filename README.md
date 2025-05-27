@@ -14,16 +14,28 @@ A simple Java Swing-based Shopping Cart system that demonstrates object-oriented
 
 src/
 ├── dao/
-│   ├── DBConnection.java       # Handles connection to the database
-│   ├── ProductDAO.java         # Contains methods to interact with product data (CRUD)
+
+│   ├── DBConnection.java # Handles connection to the database
+
+
+│  ├── ProductDAO.java         # Contains methods to interact with product data (CRUD)
+
+
 │   └── main.java               # Main entry point of the application
+
 │
+
 ├── model/
+
 │   ├── CartItem.java           # Represents an item in the cart
+
 │   └── Product.java            # Represents a product entity
+
 │
+
 ├── ui/
-    ├── ButtonEditor.java       # Custom editor for buttons in a table (e.g., in JTable)
+
+├── ButtonEditor.java       # Custom editor for buttons in a table (e.g., in JTable)
     ├── ButtonRenderer.java     # Custom renderer for buttons in a table
     ├── CartUI.java             # User interface for managing the shopping cart
     └── CheckoutPage.java       # UI for the checkout process
